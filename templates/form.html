@@ -1,0 +1,27 @@
+<html>
+    <title>Enter Your Specifications</title>
+    <body>
+       <form action="/prediction" method="POST">
+            <label for="batterypower">Battery Power</label>
+            <input name="batterypower" id="batterypower" type="int" style="margin-left:40px;" />
+            
+            <br>
+            <br>
+            
+            <label for="int_memory">Internal Memory</label>
+            <input name="int_memory" id="int_memory" type="number" style="margin-left:22px;" />
+            
+            <br>
+            <br>
+             
+            <label for="ram">Ram</label>
+            <input name="ram" id="ram" type="number" style="margin-left:100px;" />
+            
+            <br>
+            <br>
+            prediction: {{ api_output}}
+            <input type="submit" value="Submit"/>
+            
+        <form>  
+    <body>
+<html>                                                                  
