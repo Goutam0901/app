@@ -31,4 +31,5 @@ def prediction():
     
     return render_template('form.html', api_output=prediction)
     
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True) 
